@@ -22,7 +22,7 @@ day = new Date ()
 time = day.getDay()
 console.log(time);
 
-for(i=0;i<7;i++){
+
   if(time==0){
     document.getElementById("date").innerHTML = "<p> <big><big>شنبه</big></big></p>   "    
     }
@@ -44,7 +44,7 @@ for(i=0;i<7;i++){
                         else if (time==6){
                             document.getElementById("date").innerHTML = "<p> <big><big>جمعه</big></big></p> "
                         }
-                        }
+                        
 getElement = document.getElementById("clock")
 clock = new Date()
 hours = clock.getHours();
