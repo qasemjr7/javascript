@@ -23,25 +23,25 @@ time = day.getDay()
 console.log(time);
 
 
-  if(time==0){
+  if(time==6){
     document.getElementById("date").innerHTML = "<p> <big><big>شنبه</big></big></p>   "    
     }
-    else if(time==1){
+    else if(time==0){
         document.getElementById("date").innerHTML = "<p  <big><big>یکشنبه</big></big></p>   " 
         }
-       else if(time==2){
+       else if(time==1){
             document.getElementById("date").innerHTML = "<p> <big><big>دوشنبه</big></big></p>   " 
             }
-          else  if(time==3){
+          else  if(time==2){
                 document.getElementById("date").innerHTML = "<p> <big><big>سه شنبه</big></big></p>   "  
                 }
-             else   if(time==4){
+             else   if(time==3){
                     document.getElementById("date").innerHTML = "<p> <big><big>چهارشنبه</big></big></p>   "     
                     }
-                  else  if(time==5){
+                  else  if(time==4){
                         document.getElementById("date").innerHTML = "<p> <big><big>پنجشنبه</big></big></p>   "    
                         }
-                        else if (time==6){
+                        else if (time==5){
                             document.getElementById("date").innerHTML = "<p> <big><big>جمعه</big></big></p> "
                         }
                         
