@@ -4,7 +4,7 @@
  numbers = [ ]
 
 for ( i = 0; i < 10; i++) {
- input = prompt("یهعدد بین 1 تا 99 وارد کنید " );
+ input = prompt("یه عدد بین 1 تا 99 وارد کنید " );
         numbers.push(input);
 }
 maxNumber = numbers[0]
